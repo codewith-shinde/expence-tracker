@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+   
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.app-container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+h1, h2 {
+    border: 1px solid gray;
+    border-radius: 2px;
+    background-color: #acd3b0;
+    color: #333;
+    text-align: center;
+}
+
+.transaction-form, .summary, .transaction-list, .chart-container {
+    margin-bottom: 20px;
+  
+}
+
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color:white;
+}
+.transaction-form button{
+    border-radius: 100px;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 600px) {
+    .app-container {
+        padding: 10px;
+    }
+}
